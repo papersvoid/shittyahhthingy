@@ -1,0 +1,694 @@
+11:08:15.689 INFO  Loading commands... 
+11:08:15.775 DEBUG Skipping slash command avatar. Disabled! 
+11:08:15.777 DEBUG Skipping slash command botinvite. Disabled! 
+11:08:16.174 DEBUG Skipping slash command botstats. Disabled! 
+11:08:16.176 DEBUG Skipping slash command channelinfo. Disabled! 
+11:08:16.178 DEBUG Skipping slash command emojiinfo. Disabled! 
+11:08:16.180 DEBUG Skipping slash command guildinfo. Disabled! 
+11:08:16.181 DEBUG Skipping slash command uptime. Disabled! 
+11:08:16.182 DEBUG Skipping slash command userinfo. Disabled! 
+11:08:16.188 DEBUG Skipping command bot. Disabled! 
+11:08:16.190 DEBUG Skipping command info. Disabled! 
+11:08:16.205 DEBUG Skipping slash command deafen. Disabled! 
+11:08:16.206 DEBUG Skipping slash command disconnect. Disabled! 
+11:08:16.209 DEBUG Skipping slash command move. Disabled! 
+11:08:16.211 DEBUG Skipping slash command purge. Disabled! 
+11:08:16.213 DEBUG Skipping slash command purgeattach. Disabled! 
+11:08:16.214 DEBUG Skipping slash command purgebots. Disabled! 
+11:08:16.215 DEBUG Skipping slash command purgelinks. Disabled! 
+11:08:16.216 DEBUG Skipping slash command purgetoken. Disabled! 
+11:08:16.217 DEBUG Skipping slash command purgeuser. Disabled! 
+11:08:16.221 DEBUG Skipping command purge. Disabled! 
+11:08:16.222 DEBUG Skipping command voice. Disabled! 
+11:08:16.225 DEBUG Skipping slash command undeafen. Disabled! 
+11:08:16.228 DEBUG Skipping slash command vmute. Disabled! 
+11:08:16.229 DEBUG Skipping slash command vunmute. Disabled! 
+11:08:16.336 INFO  Loaded 96 commands 
+11:08:16.337 INFO  Loaded 80 slash commands 
+11:08:16.337 INFO  Loading contexts... 
+11:08:16.341 INFO  Loaded 2 USER contexts 
+11:08:16.341 INFO  Loaded 0 MESSAGE contexts 
+11:08:16.342 INFO  Loading events... 
+11:08:16.399 INFO  Loaded 22 events. Success (22) Failed (0) 
+11:08:16.400 INFO  Validating config.js and environment variables 
+11:08:16.401 WARN  env: WEATHERSTACK_KEY is missing. Weather command won't work 
+11:08:16.402 WARN  config.js: SUPPORT_SERVER is not provided 
+11:08:16.403 INFO  Connecting to MongoDb... 
+11:08:16.636 INFO  Mongoose: Database connection established 
+11:08:16.792 INFO  VersionCheck: Your discord bot is up to date 
+11:08:17.192 INFO  Logged in as Cloudary#4867! (1015125136027942912) 
+11:08:17.193 INFO  Initializing music manager 
+11:08:17.196 INFO  Initializing giveaways manager 
+11:08:17.342 ERROR E11000 duplicate key error collection: myFirstDatabase.guilds index: guildId_1 dup key: { guildId: null }
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"guildId":1},"keyValue":{"guildId":null}}
+MongoError: E11000 duplicate key error collection: myFirstDatabase.guilds index: guildId_1 dup key: { guildId: null }
+    at Function.create (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\topology.js:953:24)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\server.js:565:5)
+    at MessageStream.messageHandler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection.js:281:5)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+    at TLSSocket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12) 
+11:08:27.216 ERROR getaddrinfo EAI_AGAIN ger.lavalink.mitask.tech
+{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"ger.lavalink.mitask.tech"}
+Error: getaddrinfo EAI_AGAIN ger.lavalink.mitask.tech
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) 
+11:08:27.217 ERROR getaddrinfo EAI_AGAIN usa.lavalink.mitask.tech
+{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"usa.lavalink.mitask.tech"}
+Error: getaddrinfo EAI_AGAIN usa.lavalink.mitask.tech
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) 
+11:08:32.222 WARN  Node "German Link" is reconnecting 
+11:08:32.224 WARN  Node "USA Link" is reconnecting 
+11:08:42.245 ERROR getaddrinfo EAI_AGAIN ger.lavalink.mitask.tech
+{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"ger.lavalink.mitask.tech"}
+Error: getaddrinfo EAI_AGAIN ger.lavalink.mitask.tech
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) 
+11:08:42.246 ERROR getaddrinfo EAI_AGAIN usa.lavalink.mitask.tech
+{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"usa.lavalink.mitask.tech"}
+Error: getaddrinfo EAI_AGAIN usa.lavalink.mitask.tech
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) 
+11:08:47.261 WARN  Node "German Link" is reconnecting 
+11:08:47.263 WARN  Node "USA Link" is reconnecting 
+11:08:57.285 ERROR getaddrinfo EAI_AGAIN ger.lavalink.mitask.tech
+{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"ger.lavalink.mitask.tech"}
+Error: getaddrinfo EAI_AGAIN ger.lavalink.mitask.tech
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) 
+11:08:57.287 ERROR getaddrinfo EAI_AGAIN usa.lavalink.mitask.tech
+{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"usa.lavalink.mitask.tech"}
+Error: getaddrinfo EAI_AGAIN usa.lavalink.mitask.tech
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) 
+11:09:02.292 WARN  Node "German Link" is reconnecting 
+11:09:02.293 WARN  Node "USA Link" is reconnecting 
+11:09:12.315 ERROR getaddrinfo EAI_AGAIN ger.lavalink.mitask.tech
+{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"ger.lavalink.mitask.tech"}
+Error: getaddrinfo EAI_AGAIN ger.lavalink.mitask.tech
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) 
+11:09:12.316 ERROR getaddrinfo EAI_AGAIN usa.lavalink.mitask.tech
+{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"usa.lavalink.mitask.tech"}
+Error: getaddrinfo EAI_AGAIN usa.lavalink.mitask.tech
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) 
+11:09:17.323 WARN  Node "German Link" is reconnecting 
+11:09:17.324 WARN  Node "USA Link" is reconnecting 
+11:09:27.346 ERROR getaddrinfo EAI_AGAIN ger.lavalink.mitask.tech
+{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"ger.lavalink.mitask.tech"}
+Error: getaddrinfo EAI_AGAIN ger.lavalink.mitask.tech
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) 
+11:09:27.347 ERROR getaddrinfo EAI_AGAIN usa.lavalink.mitask.tech
+{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"usa.lavalink.mitask.tech"}
+Error: getaddrinfo EAI_AGAIN usa.lavalink.mitask.tech
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) 
+11:09:32.362 ERROR Unable to connect after 5 attempts.
+{}
+Error: Unable to connect after 5 attempts.
+    at Timeout._onTimeout (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js\dist\structures\Node.js:176:31)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) 
+11:09:32.363 ERROR Unable to connect after 5 attempts.
+{}
+Error: Unable to connect after 5 attempts.
+    at Timeout._onTimeout (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js\dist\structures\Node.js:176:31)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) 
+11:11:46.213 INFO  Loading commands... 
+11:11:46.300 DEBUG Skipping slash command avatar. Disabled! 
+11:11:46.302 DEBUG Skipping slash command botinvite. Disabled! 
+11:11:46.356 DEBUG Skipping slash command botstats. Disabled! 
+11:11:46.358 DEBUG Skipping slash command channelinfo. Disabled! 
+11:11:46.360 DEBUG Skipping slash command emojiinfo. Disabled! 
+11:11:46.362 DEBUG Skipping slash command guildinfo. Disabled! 
+11:11:46.363 DEBUG Skipping slash command uptime. Disabled! 
+11:11:46.367 DEBUG Skipping slash command userinfo. Disabled! 
+11:11:46.372 DEBUG Skipping command bot. Disabled! 
+11:11:46.373 DEBUG Skipping command info. Disabled! 
+11:11:46.390 DEBUG Skipping slash command deafen. Disabled! 
+11:11:46.392 DEBUG Skipping slash command disconnect. Disabled! 
+11:11:46.395 DEBUG Skipping slash command move. Disabled! 
+11:11:46.397 DEBUG Skipping slash command purge. Disabled! 
+11:11:46.398 DEBUG Skipping slash command purgeattach. Disabled! 
+11:11:46.398 DEBUG Skipping slash command purgebots. Disabled! 
+11:11:46.399 DEBUG Skipping slash command purgelinks. Disabled! 
+11:11:46.400 DEBUG Skipping slash command purgetoken. Disabled! 
+11:11:46.401 DEBUG Skipping slash command purgeuser. Disabled! 
+11:11:46.405 DEBUG Skipping command purge. Disabled! 
+11:11:46.406 DEBUG Skipping command voice. Disabled! 
+11:11:46.409 DEBUG Skipping slash command undeafen. Disabled! 
+11:11:46.411 DEBUG Skipping slash command vmute. Disabled! 
+11:11:46.412 DEBUG Skipping slash command vunmute. Disabled! 
+11:11:46.454 INFO  Loaded 96 commands 
+11:11:46.455 INFO  Loaded 80 slash commands 
+11:11:46.456 INFO  Loading contexts... 
+11:11:46.459 INFO  Loaded 2 USER contexts 
+11:11:46.460 INFO  Loaded 0 MESSAGE contexts 
+11:11:46.461 INFO  Loading events... 
+11:11:46.521 INFO  Loaded 22 events. Success (22) Failed (0) 
+11:11:46.522 INFO  Validating config.js and environment variables 
+11:11:46.523 WARN  env: WEATHERSTACK_KEY is missing. Weather command won't work 
+11:11:46.524 INFO  Connecting to MongoDb... 
+11:11:46.639 ERROR Unexpected token   in JSON at position 0
+{}
+SyntaxError: Unexpected token   in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at xe.json (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\petitio\dist\index.js:30:505)
+    at _e.json (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\petitio\dist\index.js:30:2430)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Spotify.renewToken (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js-spotify\dist\plugin.js:156:46)
+    at async Spotify.renew (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js-spotify\dist\plugin.js:168:27) 
+11:11:46.759 INFO  Mongoose: Database connection established 
+11:11:46.890 INFO  VersionCheck: Your discord bot is up to date 
+11:11:46.890 INFO  Launching dashboard 
+11:11:47.254 INFO  Dashboard is listening on port 8080 
+11:11:47.506 INFO  Logged in as Cloudary#4867! (1015125136027942912) 
+11:11:47.506 INFO  Initializing music manager 
+11:11:47.511 INFO  Initializing giveaways manager 
+11:11:48.504 INFO  Successfully registered slash commands 
+11:11:48.580 INFO  Node "USA Link" connected 
+11:11:48.621 ERROR E11000 duplicate key error collection: myFirstDatabase.guilds index: guildId_1 dup key: { guildId: null }
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"guildId":1},"keyValue":{"guildId":null}}
+MongoError: E11000 duplicate key error collection: myFirstDatabase.guilds index: guildId_1 dup key: { guildId: null }
+    at Function.create (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\topology.js:953:24)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\server.js:565:5)
+    at MessageStream.messageHandler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection.js:281:5)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12) 
+11:11:49.758 INFO  Node "German Link" connected 
+11:11:58.890 ERROR E11000 duplicate key error collection: myFirstDatabase.guilds index: guildId_1 dup key: { guildId: null }
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"guildId":1},"keyValue":{"guildId":null}}
+MongoError: E11000 duplicate key error collection: myFirstDatabase.guilds index: guildId_1 dup key: { guildId: null }
+    at Function.create (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\topology.js:953:24)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\server.js:565:5)
+    at MessageStream.messageHandler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection.js:281:5)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12) 
+11:12:02.470 ERROR E11000 duplicate key error collection: myFirstDatabase.guilds index: guildId_1 dup key: { guildId: null }
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"guildId":1},"keyValue":{"guildId":null}}
+MongoError: E11000 duplicate key error collection: myFirstDatabase.guilds index: guildId_1 dup key: { guildId: null }
+    at Function.create (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\topology.js:953:24)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\server.js:565:5)
+    at MessageStream.messageHandler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection.js:281:5)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12) 
+11:12:03.847 ERROR E11000 duplicate key error collection: myFirstDatabase.guilds index: guildId_1 dup key: { guildId: null }
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"guildId":1},"keyValue":{"guildId":null}}
+MongoError: E11000 duplicate key error collection: myFirstDatabase.guilds index: guildId_1 dup key: { guildId: null }
+    at Function.create (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\topology.js:953:24)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\server.js:565:5)
+    at MessageStream.messageHandler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection.js:281:5)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12) 
+11:13:02.317 INFO  Loading commands... 
+11:13:02.426 DEBUG Skipping slash command avatar. Disabled! 
+11:13:02.429 DEBUG Skipping slash command botinvite. Disabled! 
+11:13:02.498 DEBUG Skipping slash command botstats. Disabled! 
+11:13:02.500 DEBUG Skipping slash command channelinfo. Disabled! 
+11:13:02.502 DEBUG Skipping slash command emojiinfo. Disabled! 
+11:13:02.504 DEBUG Skipping slash command guildinfo. Disabled! 
+11:13:02.505 DEBUG Skipping slash command uptime. Disabled! 
+11:13:02.510 DEBUG Skipping slash command userinfo. Disabled! 
+11:13:02.515 DEBUG Skipping command bot. Disabled! 
+11:13:02.516 DEBUG Skipping command info. Disabled! 
+11:13:02.534 DEBUG Skipping slash command deafen. Disabled! 
+11:13:02.536 DEBUG Skipping slash command disconnect. Disabled! 
+11:13:02.539 DEBUG Skipping slash command move. Disabled! 
+11:13:02.541 DEBUG Skipping slash command purge. Disabled! 
+11:13:02.542 DEBUG Skipping slash command purgeattach. Disabled! 
+11:13:02.543 DEBUG Skipping slash command purgebots. Disabled! 
+11:13:02.545 DEBUG Skipping slash command purgelinks. Disabled! 
+11:13:02.546 DEBUG Skipping slash command purgetoken. Disabled! 
+11:13:02.547 DEBUG Skipping slash command purgeuser. Disabled! 
+11:13:02.550 DEBUG Skipping command purge. Disabled! 
+11:13:02.551 DEBUG Skipping command voice. Disabled! 
+11:13:02.555 DEBUG Skipping slash command undeafen. Disabled! 
+11:13:02.557 DEBUG Skipping slash command vmute. Disabled! 
+11:13:02.559 DEBUG Skipping slash command vunmute. Disabled! 
+11:13:02.603 INFO  Loaded 96 commands 
+11:13:02.603 INFO  Loaded 80 slash commands 
+11:13:02.604 INFO  Loading contexts... 
+11:13:02.607 INFO  Loaded 2 USER contexts 
+11:13:02.608 INFO  Loaded 0 MESSAGE contexts 
+11:13:02.609 INFO  Loading events... 
+11:13:02.671 INFO  Loaded 22 events. Success (22) Failed (0) 
+11:13:02.672 INFO  Validating config.js and environment variables 
+11:13:02.673 WARN  env: WEATHERSTACK_KEY is missing. Weather command won't work 
+11:13:02.674 INFO  Connecting to MongoDb... 
+11:13:02.782 ERROR Unexpected token   in JSON at position 0
+{}
+SyntaxError: Unexpected token   in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at xe.json (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\petitio\dist\index.js:30:505)
+    at _e.json (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\petitio\dist\index.js:30:2430)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Spotify.renewToken (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js-spotify\dist\plugin.js:156:46)
+    at async Spotify.renew (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js-spotify\dist\plugin.js:168:27) 
+11:13:02.883 INFO  Mongoose: Database connection established 
+11:13:03.051 INFO  VersionCheck: Your discord bot is up to date 
+11:13:03.052 INFO  Launching dashboard 
+11:13:03.280 INFO  Dashboard is listening on port 8080 
+11:13:03.634 INFO  Logged in as Cloudary#4867! (1015125136027942912) 
+11:13:03.634 INFO  Initializing music manager 
+11:13:03.638 INFO  Initializing giveaways manager 
+11:13:03.946 INFO  Successfully registered slash commands 
+11:13:04.027 ERROR E11000 duplicate key error collection: myFirstDatabase.guilds index: guildId_1 dup key: { guildId: null }
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"guildId":1},"keyValue":{"guildId":null}}
+MongoError: E11000 duplicate key error collection: myFirstDatabase.guilds index: guildId_1 dup key: { guildId: null }
+    at Function.create (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\topology.js:953:24)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\server.js:565:5)
+    at MessageStream.messageHandler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection.js:281:5)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12) 
+11:13:04.228 INFO  Node "USA Link" connected 
+11:13:04.418 INFO  Node "German Link" connected 
+11:15:08.968 INFO  Loading commands... 
+11:15:09.125 DEBUG Skipping slash command avatar. Disabled! 
+11:15:09.130 DEBUG Skipping slash command botinvite. Disabled! 
+11:15:09.276 DEBUG Skipping slash command botstats. Disabled! 
+11:15:09.280 DEBUG Skipping slash command channelinfo. Disabled! 
+11:15:09.283 DEBUG Skipping slash command emojiinfo. Disabled! 
+11:15:09.288 DEBUG Skipping slash command guildinfo. Disabled! 
+11:15:09.291 DEBUG Skipping slash command uptime. Disabled! 
+11:15:09.299 DEBUG Skipping slash command userinfo. Disabled! 
+11:15:09.310 DEBUG Skipping command bot. Disabled! 
+11:15:09.314 DEBUG Skipping command info. Disabled! 
+11:15:09.345 DEBUG Skipping slash command deafen. Disabled! 
+11:15:09.348 DEBUG Skipping slash command disconnect. Disabled! 
+11:15:09.353 DEBUG Skipping slash command move. Disabled! 
+11:15:09.356 DEBUG Skipping slash command purge. Disabled! 
+11:15:09.358 DEBUG Skipping slash command purgeattach. Disabled! 
+11:15:09.360 DEBUG Skipping slash command purgebots. Disabled! 
+11:15:09.361 DEBUG Skipping slash command purgelinks. Disabled! 
+11:15:09.363 DEBUG Skipping slash command purgetoken. Disabled! 
+11:15:09.365 DEBUG Skipping slash command purgeuser. Disabled! 
+11:15:09.370 DEBUG Skipping command purge. Disabled! 
+11:15:09.372 DEBUG Skipping command voice. Disabled! 
+11:15:09.378 DEBUG Skipping slash command undeafen. Disabled! 
+11:15:09.381 DEBUG Skipping slash command vmute. Disabled! 
+11:15:09.383 DEBUG Skipping slash command vunmute. Disabled! 
+11:15:09.455 INFO  Loaded 96 commands 
+11:15:09.456 INFO  Loaded 80 slash commands 
+11:15:09.457 INFO  Loading contexts... 
+11:15:09.463 INFO  Loaded 2 USER contexts 
+11:15:09.464 INFO  Loaded 0 MESSAGE contexts 
+11:15:09.465 INFO  Loading events... 
+11:15:09.582 INFO  Loaded 22 events. Success (22) Failed (0) 
+11:15:09.584 INFO  Validating config.js and environment variables 
+11:15:09.586 WARN  env: WEATHERSTACK_KEY is missing. Weather command won't work 
+11:15:09.587 INFO  Connecting to MongoDb... 
+11:15:09.726 ERROR Unexpected token   in JSON at position 0
+{}
+SyntaxError: Unexpected token   in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at xe.json (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\petitio\dist\index.js:30:505)
+    at _e.json (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\petitio\dist\index.js:30:2430)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Spotify.renewToken (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js-spotify\dist\plugin.js:156:46)
+    at async Spotify.renew (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js-spotify\dist\plugin.js:168:27) 
+11:17:19.243 INFO  Loading commands... 
+11:17:19.367 DEBUG Skipping slash command avatar. Disabled! 
+11:17:19.370 DEBUG Skipping slash command botinvite. Disabled! 
+11:17:19.444 DEBUG Skipping slash command botstats. Disabled! 
+11:17:19.446 DEBUG Skipping slash command channelinfo. Disabled! 
+11:17:19.448 DEBUG Skipping slash command emojiinfo. Disabled! 
+11:17:19.451 DEBUG Skipping slash command guildinfo. Disabled! 
+11:17:19.452 DEBUG Skipping slash command uptime. Disabled! 
+11:17:19.457 DEBUG Skipping slash command userinfo. Disabled! 
+11:17:19.463 DEBUG Skipping command bot. Disabled! 
+11:17:19.465 DEBUG Skipping command info. Disabled! 
+11:17:19.484 DEBUG Skipping slash command deafen. Disabled! 
+11:17:19.486 DEBUG Skipping slash command disconnect. Disabled! 
+11:17:19.489 DEBUG Skipping slash command move. Disabled! 
+11:17:19.492 DEBUG Skipping slash command purge. Disabled! 
+11:17:19.493 DEBUG Skipping slash command purgeattach. Disabled! 
+11:17:19.494 DEBUG Skipping slash command purgebots. Disabled! 
+11:17:19.495 DEBUG Skipping slash command purgelinks. Disabled! 
+11:17:19.496 DEBUG Skipping slash command purgetoken. Disabled! 
+11:17:19.498 DEBUG Skipping slash command purgeuser. Disabled! 
+11:17:19.501 DEBUG Skipping command purge. Disabled! 
+11:17:19.503 DEBUG Skipping command voice. Disabled! 
+11:17:19.507 DEBUG Skipping slash command undeafen. Disabled! 
+11:17:19.509 DEBUG Skipping slash command vmute. Disabled! 
+11:17:19.510 DEBUG Skipping slash command vunmute. Disabled! 
+11:17:19.559 INFO  Loaded 96 commands 
+11:17:19.560 INFO  Loaded 80 slash commands 
+11:17:19.560 INFO  Loading contexts... 
+11:17:19.564 INFO  Loaded 2 USER contexts 
+11:17:19.565 INFO  Loaded 0 MESSAGE contexts 
+11:17:19.567 INFO  Loading events... 
+11:17:19.646 INFO  Loaded 22 events. Success (22) Failed (0) 
+11:17:19.647 INFO  Validating config.js and environment variables 
+11:17:19.648 WARN  env: WEATHERSTACK_KEY is missing. Weather command won't work 
+11:17:19.648 INFO  Connecting to MongoDb... 
+11:17:19.761 ERROR Unexpected token   in JSON at position 0
+{}
+SyntaxError: Unexpected token   in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at xe.json (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\petitio\dist\index.js:30:505)
+    at _e.json (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\petitio\dist\index.js:30:2430)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Spotify.renewToken (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js-spotify\dist\plugin.js:156:46)
+    at async Spotify.renew (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js-spotify\dist\plugin.js:168:27) 
+11:17:19.863 INFO  Mongoose: Database connection established 
+11:17:20.003 INFO  VersionCheck: Your discord bot is up to date 
+11:17:20.003 INFO  Launching dashboard 
+11:17:20.254 INFO  Dashboard is listening on port 8080 
+11:17:20.594 INFO  Logged in as Cloudary#4867! (1015125136027942912) 
+11:17:20.595 INFO  Initializing music manager 
+11:17:20.598 INFO  Initializing giveaways manager 
+11:17:20.962 INFO  Successfully registered slash commands 
+11:17:21.026 ERROR E11000 duplicate key error collection: test.guilds index: guildId_1 dup key: { guildId: null }
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"guildId":1},"keyValue":{"guildId":null}}
+MongoError: E11000 duplicate key error collection: test.guilds index: guildId_1 dup key: { guildId: null }
+    at Function.create (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\topology.js:953:24)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\server.js:565:5)
+    at MessageStream.messageHandler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection.js:281:5)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12) 
+11:17:21.222 INFO  Node "USA Link" connected 
+11:17:21.367 INFO  Node "German Link" connected 
+11:17:30.298 ERROR E11000 duplicate key error collection: test.guilds index: guildId_1 dup key: { guildId: null }
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"guildId":1},"keyValue":{"guildId":null}}
+MongoError: E11000 duplicate key error collection: test.guilds index: guildId_1 dup key: { guildId: null }
+    at Function.create (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\topology.js:953:24)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\server.js:565:5)
+    at MessageStream.messageHandler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection.js:281:5)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12) 
+11:17:32.349 ERROR E11000 duplicate key error collection: test.guilds index: guildId_1 dup key: { guildId: null }
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"guildId":1},"keyValue":{"guildId":null}}
+MongoError: E11000 duplicate key error collection: test.guilds index: guildId_1 dup key: { guildId: null }
+    at Function.create (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\topology.js:953:24)
+    at C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\core\sdam\server.js:565:5)
+    at MessageStream.messageHandler (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\connection.js:281:5)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12) 
+11:18:37.324 INFO  Loading commands... 
+11:18:37.439 DEBUG Skipping slash command avatar. Disabled! 
+11:18:37.442 DEBUG Skipping slash command botinvite. Disabled! 
+11:18:37.515 DEBUG Skipping slash command botstats. Disabled! 
+11:18:37.517 DEBUG Skipping slash command channelinfo. Disabled! 
+11:18:37.520 DEBUG Skipping slash command emojiinfo. Disabled! 
+11:18:37.522 DEBUG Skipping slash command guildinfo. Disabled! 
+11:18:37.524 DEBUG Skipping slash command uptime. Disabled! 
+11:18:37.530 DEBUG Skipping slash command userinfo. Disabled! 
+11:18:37.537 DEBUG Skipping command bot. Disabled! 
+11:18:37.540 DEBUG Skipping command info. Disabled! 
+11:18:37.560 DEBUG Skipping slash command deafen. Disabled! 
+11:18:37.562 DEBUG Skipping slash command disconnect. Disabled! 
+11:18:37.565 DEBUG Skipping slash command move. Disabled! 
+11:18:37.568 DEBUG Skipping slash command purge. Disabled! 
+11:18:37.569 DEBUG Skipping slash command purgeattach. Disabled! 
+11:18:37.570 DEBUG Skipping slash command purgebots. Disabled! 
+11:18:37.571 DEBUG Skipping slash command purgelinks. Disabled! 
+11:18:37.573 DEBUG Skipping slash command purgetoken. Disabled! 
+11:18:37.574 DEBUG Skipping slash command purgeuser. Disabled! 
+11:18:37.578 DEBUG Skipping command purge. Disabled! 
+11:18:37.580 DEBUG Skipping command voice. Disabled! 
+11:18:37.583 DEBUG Skipping slash command undeafen. Disabled! 
+11:18:37.585 DEBUG Skipping slash command vmute. Disabled! 
+11:18:37.586 DEBUG Skipping slash command vunmute. Disabled! 
+11:18:37.637 INFO  Loaded 96 commands 
+11:18:37.638 INFO  Loaded 80 slash commands 
+11:18:37.639 INFO  Loading contexts... 
+11:18:37.643 INFO  Loaded 2 USER contexts 
+11:18:37.643 INFO  Loaded 0 MESSAGE contexts 
+11:18:37.644 INFO  Loading events... 
+11:18:37.737 INFO  Loaded 22 events. Success (22) Failed (0) 
+11:18:37.745 INFO  Validating config.js and environment variables 
+11:18:37.747 WARN  env: WEATHERSTACK_KEY is missing. Weather command won't work 
+11:18:37.748 INFO  Connecting to MongoDb... 
+11:18:37.867 ERROR Unexpected token   in JSON at position 0
+{}
+SyntaxError: Unexpected token   in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at xe.json (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\petitio\dist\index.js:30:505)
+    at _e.json (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\petitio\dist\index.js:30:2430)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Spotify.renewToken (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js-spotify\dist\plugin.js:156:46)
+    at async Spotify.renew (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js-spotify\dist\plugin.js:168:27) 
+11:18:38.588 INFO  Mongoose: Database connection established 
+11:18:38.724 INFO  VersionCheck: Your discord bot is up to date 
+11:18:38.725 INFO  Launching dashboard 
+11:18:38.982 INFO  Dashboard is listening on port 8080 
+11:18:39.258 INFO  Logged in as Cloudary#4867! (1015125136027942912) 
+11:18:39.259 INFO  Initializing music manager 
+11:18:39.264 INFO  Initializing giveaways manager 
+11:18:39.536 INFO  Successfully registered slash commands 
+11:18:39.865 INFO  Node "USA Link" connected 
+11:18:40.050 INFO  Node "German Link" connected 
+11:20:14.462 INFO  Loading commands... 
+11:20:14.589 DEBUG Skipping slash command avatar. Disabled! 
+11:20:14.593 DEBUG Skipping slash command botinvite. Disabled! 
+11:20:14.667 DEBUG Skipping slash command botstats. Disabled! 
+11:20:14.670 DEBUG Skipping slash command channelinfo. Disabled! 
+11:20:14.677 DEBUG Skipping slash command emojiinfo. Disabled! 
+11:20:14.683 DEBUG Skipping slash command guildinfo. Disabled! 
+11:20:14.685 DEBUG Skipping slash command uptime. Disabled! 
+11:20:14.697 DEBUG Skipping slash command userinfo. Disabled! 
+11:20:14.709 DEBUG Skipping command bot. Disabled! 
+11:20:14.712 DEBUG Skipping command info. Disabled! 
+11:20:14.743 DEBUG Skipping slash command deafen. Disabled! 
+11:20:14.746 DEBUG Skipping slash command disconnect. Disabled! 
+11:20:14.750 DEBUG Skipping slash command move. Disabled! 
+11:20:14.753 DEBUG Skipping slash command purge. Disabled! 
+11:20:14.755 DEBUG Skipping slash command purgeattach. Disabled! 
+11:20:14.757 DEBUG Skipping slash command purgebots. Disabled! 
+11:20:14.759 DEBUG Skipping slash command purgelinks. Disabled! 
+11:20:14.760 DEBUG Skipping slash command purgetoken. Disabled! 
+11:20:14.762 DEBUG Skipping slash command purgeuser. Disabled! 
+11:20:14.769 DEBUG Skipping command purge. Disabled! 
+11:20:14.771 DEBUG Skipping command voice. Disabled! 
+11:20:14.775 DEBUG Skipping slash command undeafen. Disabled! 
+11:20:14.778 DEBUG Skipping slash command vmute. Disabled! 
+11:20:14.779 DEBUG Skipping slash command vunmute. Disabled! 
+11:20:14.837 INFO  Loaded 96 commands 
+11:20:14.838 INFO  Loaded 80 slash commands 
+11:20:14.839 INFO  Loading contexts... 
+11:20:14.844 INFO  Loaded 2 USER contexts 
+11:20:14.845 INFO  Loaded 0 MESSAGE contexts 
+11:20:14.847 INFO  Loading events... 
+11:20:14.931 INFO  Loaded 22 events. Success (22) Failed (0) 
+11:20:14.934 INFO  Validating config.js and environment variables 
+11:20:14.936 WARN  env: WEATHERSTACK_KEY is missing. Weather command won't work 
+11:20:14.938 INFO  Connecting to MongoDb... 
+11:20:15.078 ERROR Unexpected token   in JSON at position 0
+{}
+SyntaxError: Unexpected token   in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at xe.json (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\petitio\dist\index.js:30:505)
+    at _e.json (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\petitio\dist\index.js:30:2430)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Spotify.renewToken (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js-spotify\dist\plugin.js:156:46)
+    at async Spotify.renew (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js-spotify\dist\plugin.js:168:27) 
+11:20:15.745 INFO  Mongoose: Database connection established 
+11:20:15.903 INFO  VersionCheck: Your discord bot is up to date 
+11:20:15.903 INFO  Launching dashboard 
+11:20:16.154 INFO  Dashboard is listening on port 8080 
+11:20:16.400 INFO  Logged in as Cloudary#4867! (1015125136027942912) 
+11:20:16.401 INFO  Initializing music manager 
+11:20:16.405 INFO  Initializing giveaways manager 
+11:20:16.782 INFO  Successfully registered slash commands 
+11:20:17.003 INFO  Node "USA Link" connected 
+11:20:17.178 INFO  Node "German Link" connected 
+11:20:52.713 INFO  Loading commands... 
+11:20:52.833 DEBUG Skipping slash command avatar. Disabled! 
+11:20:52.837 DEBUG Skipping slash command botinvite. Disabled! 
+11:20:52.961 DEBUG Skipping slash command botstats. Disabled! 
+11:20:52.965 DEBUG Skipping slash command channelinfo. Disabled! 
+11:20:52.970 DEBUG Skipping slash command emojiinfo. Disabled! 
+11:20:52.975 DEBUG Skipping slash command guildinfo. Disabled! 
+11:20:52.977 DEBUG Skipping slash command uptime. Disabled! 
+11:20:52.995 DEBUG Skipping slash command userinfo. Disabled! 
+11:20:53.007 DEBUG Skipping command bot. Disabled! 
+11:20:53.013 DEBUG Skipping command info. Disabled! 
+11:20:53.051 DEBUG Skipping slash command deafen. Disabled! 
+11:20:53.054 DEBUG Skipping slash command disconnect. Disabled! 
+11:20:53.058 DEBUG Skipping slash command move. Disabled! 
+11:20:53.062 DEBUG Skipping slash command purge. Disabled! 
+11:20:53.064 DEBUG Skipping slash command purgeattach. Disabled! 
+11:20:53.066 DEBUG Skipping slash command purgebots. Disabled! 
+11:20:53.067 DEBUG Skipping slash command purgelinks. Disabled! 
+11:20:53.069 DEBUG Skipping slash command purgetoken. Disabled! 
+11:20:53.070 DEBUG Skipping slash command purgeuser. Disabled! 
+11:20:53.076 DEBUG Skipping command purge. Disabled! 
+11:20:53.080 DEBUG Skipping command voice. Disabled! 
+11:20:53.086 DEBUG Skipping slash command undeafen. Disabled! 
+11:20:53.090 DEBUG Skipping slash command vmute. Disabled! 
+11:20:53.092 DEBUG Skipping slash command vunmute. Disabled! 
+11:20:53.166 INFO  Loaded 96 commands 
+11:20:53.167 INFO  Loaded 80 slash commands 
+11:20:53.168 INFO  Loading contexts... 
+11:20:53.174 INFO  Loaded 2 USER contexts 
+11:20:53.175 INFO  Loaded 0 MESSAGE contexts 
+11:20:53.176 INFO  Loading events... 
+11:20:53.274 INFO  Loaded 22 events. Success (22) Failed (0) 
+11:20:53.276 INFO  Validating config.js and environment variables 
+11:20:53.277 WARN  env: WEATHERSTACK_KEY is missing. Weather command won't work 
+11:20:53.278 INFO  Connecting to MongoDb... 
+11:20:53.416 ERROR Unexpected token   in JSON at position 0
+{}
+SyntaxError: Unexpected token   in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at xe.json (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\petitio\dist\index.js:30:505)
+    at _e.json (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\petitio\dist\index.js:30:2430)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Spotify.renewToken (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js-spotify\dist\plugin.js:156:46)
+    at async Spotify.renew (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js-spotify\dist\plugin.js:168:27) 
+11:20:54.062 INFO  Mongoose: Database connection established 
+11:20:54.204 INFO  VersionCheck: Your discord bot is up to date 
+11:20:54.205 INFO  Launching dashboard 
+11:20:54.504 INFO  Dashboard is listening on port 8080 
+11:20:54.796 INFO  Logged in as Cloudary#4867! (1015125136027942912) 
+11:20:54.797 INFO  Initializing music manager 
+11:20:54.802 INFO  Initializing giveaways manager 
+11:20:55.189 INFO  Successfully registered slash commands 
+11:20:55.398 INFO  Node "USA Link" connected 
+11:20:55.838 INFO  Node "German Link" connected 
+11:22:24.208 INFO  Loading commands... 
+11:22:24.308 DEBUG Skipping slash command avatar. Disabled! 
+11:22:24.310 DEBUG Skipping slash command botinvite. Disabled! 
+11:22:24.392 DEBUG Skipping slash command botstats. Disabled! 
+11:22:24.396 DEBUG Skipping slash command channelinfo. Disabled! 
+11:22:24.400 DEBUG Skipping slash command emojiinfo. Disabled! 
+11:22:24.405 DEBUG Skipping slash command guildinfo. Disabled! 
+11:22:24.407 DEBUG Skipping slash command uptime. Disabled! 
+11:22:24.416 DEBUG Skipping slash command userinfo. Disabled! 
+11:22:24.430 DEBUG Skipping command bot. Disabled! 
+11:22:24.436 DEBUG Skipping command info. Disabled! 
+11:22:24.478 DEBUG Skipping slash command deafen. Disabled! 
+11:22:24.481 DEBUG Skipping slash command disconnect. Disabled! 
+11:22:24.486 DEBUG Skipping slash command move. Disabled! 
+11:22:24.490 DEBUG Skipping slash command purge. Disabled! 
+11:22:24.492 DEBUG Skipping slash command purgeattach. Disabled! 
+11:22:24.494 DEBUG Skipping slash command purgebots. Disabled! 
+11:22:24.496 DEBUG Skipping slash command purgelinks. Disabled! 
+11:22:24.498 DEBUG Skipping slash command purgetoken. Disabled! 
+11:22:24.500 DEBUG Skipping slash command purgeuser. Disabled! 
+11:22:24.507 DEBUG Skipping command purge. Disabled! 
+11:22:24.510 DEBUG Skipping command voice. Disabled! 
+11:22:24.514 DEBUG Skipping slash command undeafen. Disabled! 
+11:22:24.518 DEBUG Skipping slash command vmute. Disabled! 
+11:22:24.521 DEBUG Skipping slash command vunmute. Disabled! 
+11:22:24.602 INFO  Loaded 96 commands 
+11:22:24.603 INFO  Loaded 80 slash commands 
+11:22:24.605 INFO  Loading contexts... 
+11:22:24.611 INFO  Loaded 2 USER contexts 
+11:22:24.614 INFO  Loaded 0 MESSAGE contexts 
+11:22:24.616 INFO  Loading events... 
+11:22:24.725 INFO  Loaded 22 events. Success (22) Failed (0) 
+11:22:24.726 INFO  Validating config.js and environment variables 
+11:22:24.728 WARN  env: WEATHERSTACK_KEY is missing. Weather command won't work 
+11:22:24.729 INFO  Connecting to MongoDb... 
+11:22:24.874 ERROR Unexpected token   in JSON at position 0
+{}
+SyntaxError: Unexpected token   in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at xe.json (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\petitio\dist\index.js:30:505)
+    at _e.json (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\petitio\dist\index.js:30:2430)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Spotify.renewToken (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js-spotify\dist\plugin.js:156:46)
+    at async Spotify.renew (C:\Users\hamza\OneDrive\Desktop\Workspace\discord-js-bot\node_modules\erela.js-spotify\dist\plugin.js:168:27) 
+11:22:25.580 INFO  Mongoose: Database connection established 
+11:22:25.776 INFO  VersionCheck: Your discord bot is up to date 
+11:22:25.777 INFO  Launching dashboard 
+11:22:26.313 INFO  Dashboard is listening on port 8080 
+11:22:26.728 INFO  Logged in as Cloudary#4867! (1015125136027942912) 
+11:22:26.729 INFO  Initializing music manager 
+11:22:26.733 INFO  Initializing giveaways manager 
+11:22:27.166 INFO  Successfully registered slash commands 
+11:22:27.516 INFO  Node "German Link" connected 
+11:22:27.849 INFO  Node "USA Link" connected 
